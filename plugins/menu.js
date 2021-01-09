@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   let preview = {}
   try {
-    if (!conn.menu) preview = await conn.generateLinkPreview('https://github.com/Arya274/Arya-Bot')
+    if (!conn.menu) preview = await conn.generateLinkPreview('https://github.com/Akbarsans/Miray-chan')
   } catch (e) {
     try {
       if (!conn.menu) preview = await global.conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
@@ -32,8 +32,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
-🤖 [NFQ BOT] 🤖
-Created Bye: @Drawl Nag
+ [Miray-chan] 
+
 
 Hi, ${name} 👋
 Exp: ${exp}
@@ -99,18 +99,18 @@ Cara Tambah XP:
 ╠➥ ${_p}mutechat group
 ║
 ╠═〘 IKLAN 〙 ═
-╠➥ Instagram: @arpunchs
-╠➥ Github: https://github.com/Arya274/Arya-Bot
+╠➥ Instagram: intagram.com/akbarsan3
+╠➥ Github: https://github.com/Akbarsans/miray-chan
 ║
 ╠═〘 Info Bot 〙 ═
-╠➥ Name : NFQ BOT
+╠➥ Name : Miray-chan
 ╠➥ Coded using *Nano* on Android \\w Termux
-╠➥ Request? Wa.me/6288235435804
+╠➥ 
 ╠═════
 ║ Advanced:
 ║  > return m
 ║
-╠═〘 NfQ BOT 〙═
+╠═〘 Miray-chan 〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
