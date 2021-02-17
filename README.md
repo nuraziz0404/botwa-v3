@@ -31,56 +31,58 @@ Simple WhatsApp Bot
 ```
 
 ### Fitur:
->╔══════════✪〘 Menu 〙✪
->║
->╠═════〘 Xp 〙
->╠➥ /leaderboard [jumlah user]
->║
->╠═〘 Command 〙 
->╠➥ /status
->╠➥ /menu
->╠➥ /help
->╠➥ /?
->║
->╠═════〘 Tutor BoT 〙
->╠➥ /tutorial
->║
->╠═════〘 Others 〙
->╠➥ /qr <teks>
->╠➥ /stiker (caption)
->╠➥ /stiker <url>
->╠➥ /toimg (reply) *{SEDANG ERROR}*
->╠➥ /bucin
->╠➥ /ssweb <url>
->╠➥ /sswebf <url>
->╠➥ /google <pencarian>
->╠➥ /googlef <pencarian>
->╠➥ /readmore <teks>|<sembunyi>
->╠➥ /quran
->╠➥ /modApk
->║
->╠═════〘 Group 〙
->╠➥ /add [62xxxxxxxxx]
->╠➥ /promote [@tagmember]
->╠➥ /demote [@tagadmin]
->╠➥ /linkgrup
->╠➥ /pengumuman [text]
->╠➥ /hidetag [text]
->╠➥ /listonline
->╠➥ /kick @Member
->╠➥ /grouplist
->║
->╠═════〘 EXPERIMENTAL 〙
->╠➥ /jadibot
->╠➥ /berhenti
->╠➥ /getcode
->║
->╠═════〘 OWNER 〙
->╠➥ /bcgc <teks>
->╠➥ /setmenu <teks>
->╠➥ /deletechat (chat grup)
->╠➥ /deletechat group
->╠➥ /mutechat (chat grup)
->╠➥ /mutechat group
->║
->╚══════════〘 CRazyzBOT 〙
+```
+> ╔══════════✪〘 Menu 〙✪
+> ║
+> ╠═════〘 Xp 〙
+> ╠➥ /leaderboard [jumlah user]
+> ║
+> ╠═〘 Command 〙 
+> ╠➥ /status
+> ╠➥ /menu
+> ╠➥ /help
+> ╠➥ /?
+> ║
+> ╠═════〘 Tutor BoT 〙
+> ╠➥ /tutorial
+> ║
+> ╠═════〘 Others 〙
+> ╠➥ /qr <teks>
+> ╠➥ /stiker (caption)
+> ╠➥ /stiker <url>
+> ╠➥ /toimg (reply) *{SEDANG ERROR}*
+> ╠➥ /bucin
+> ╠➥ /ssweb <url>
+> ╠➥ /sswebf <url>
+> ╠➥ /google <pencarian>
+> ╠➥ /googlef <pencarian>
+> ╠➥ /readmore <teks>|<sembunyi>
+> ╠➥ /quran
+> ╠➥ /modApk
+> ║
+> ╠═════〘 Group 〙
+> ╠➥ /add [62xxxxxxxxx]
+> ╠➥ /promote [@tagmember]
+> ╠➥ /demote [@tagadmin]
+> ╠➥ /linkgrup
+> ╠➥ /pengumuman [text]
+> ╠➥ /hidetag [text]
+> ╠➥ /listonline
+> ╠➥ /kick @Member
+> ╠➥ /grouplist
+> ║
+> ╠═════〘 EXPERIMENTAL 〙
+> ╠➥ /jadibot
+> ╠➥ /berhenti
+> ╠➥ /getcode
+> ║
+> ╠═════〘 OWNER 〙
+> ╠➥ /bcgc <teks>
+> ╠➥ /setmenu <teks>
+> ╠➥ /deletechat (chat grup)
+> ╠➥ /deletechat group
+> ╠➥ /mutechat (chat grup)
+> ╠➥ /mutechat group
+> ║
+> ╚══════════〘 CRazyzBOT 〙
+```
