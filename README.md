@@ -9,20 +9,14 @@ Simple WhatsApp Bot
 > pkg install ffmpeg
 > pkg install imagemagick
 > git clone https://github.com/nuraziz0404/botwa-v3
-> cd Arya-Bot
+> cd botwa-v3
 > npm install
 ```
-###### Run
-```bash
-> node index.js
-```
-
----------
 
 ### FOR WINDOWS/VPS/RDP USER
 ```bash
 > git clone https://github.com/nuraziz0404/botwa-v3
-> cd Arya-Bot
+> cd botwa-v3
 > npm install
 ```
 ###### Run
