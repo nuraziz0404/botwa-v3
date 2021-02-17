@@ -31,56 +31,56 @@ Simple WhatsApp Bot
 ```
 
 ### Fitur:
-╔══════════✪〘 Menu 〙✪
-║
-╠═════〘 Xp 〙
-╠➥ ${_p}leaderboard [jumlah user]
-║
-╠═〘 Command 〙 
-╠➥ ${_p}status
-╠➥ ${_p}menu
-╠➥ ${_p}help
-╠➥ ${_p}?
-║
-╠═════〘 Tutor BoT 〙
-╠➥ ${_p}tutorial
-║
-╠═════〘 Others 〙
-╠➥ ${_p}qr <teks>
-╠➥ ${_p}stiker (caption)
-╠➥ ${_p}stiker <url>
-╠➥ ${_p}toimg (reply) *{SEDANG ERROR}*
-╠➥ ${_p}bucin
-╠➥ ${_p}ssweb <url>
-╠➥ ${_p}sswebf <url>
-╠➥ ${_p}google <pencarian>
-╠➥ ${_p}googlef <pencarian>
-╠➥ ${_p}readmore <teks>|<sembunyi>
-╠➥ ${_p}quran
-╠➥ ${_p}modApk
-║
-╠═════〘 Group 〙
-╠➥ ${_p}add [62xxxxxxxxx]
-╠➥ ${_p}promote [@tagmember]
-╠➥ ${_p}demote [@tagadmin]
-╠➥ ${_p}linkgrup
-╠➥ ${_p}pengumuman [text]
-╠➥ ${_p}hidetag [text]
-╠➥ ${_p}listonline
-╠➥ ${_p}kick @Member
-╠➥ ${_p}grouplist
-║
-╠═════〘 EXPERIMENTAL 〙
-╠➥ ${_p}jadibot
-╠➥ ${_p}berhenti
-╠➥ ${_p}getcode
-║
-╠═════〘 OWNER 〙
-╠➥ ${_p}bcgc <teks>
-╠➥ ${_p}setmenu <teks>
-╠➥ ${_p}deletechat (chat grup)
-╠➥ ${_p}deletechat group
-╠➥ ${_p}mutechat (chat grup)
-╠➥ ${_p}mutechat group
-║
-╚══════════〘 CRazyzBOT 〙
+>╔══════════✪〘 Menu 〙✪
+>║
+>╠═════〘 Xp 〙
+>╠➥ /leaderboard [jumlah user]
+>║
+>╠═〘 Command 〙 
+>╠➥ /status
+>╠➥ /menu
+>╠➥ /help
+>╠➥ /?
+>║
+>╠═════〘 Tutor BoT 〙
+>╠➥ /tutorial
+>║
+>╠═════〘 Others 〙
+>╠➥ /qr <teks>
+>╠➥ /stiker (caption)
+>╠➥ /stiker <url>
+>╠➥ /toimg (reply) *{SEDANG ERROR}*
+>╠➥ /bucin
+>╠➥ /ssweb <url>
+>╠➥ /sswebf <url>
+>╠➥ /google <pencarian>
+>╠➥ /googlef <pencarian>
+>╠➥ /readmore <teks>|<sembunyi>
+>╠➥ /quran
+>╠➥ /modApk
+>║
+>╠═════〘 Group 〙
+>╠➥ /add [62xxxxxxxxx]
+>╠➥ /promote [@tagmember]
+>╠➥ /demote [@tagadmin]
+>╠➥ /linkgrup
+>╠➥ /pengumuman [text]
+>╠➥ /hidetag [text]
+>╠➥ /listonline
+>╠➥ /kick @Member
+>╠➥ /grouplist
+>║
+>╠═════〘 EXPERIMENTAL 〙
+>╠➥ /jadibot
+>╠➥ /berhenti
+>╠➥ /getcode
+>║
+>╠═════〘 OWNER 〙
+>╠➥ /bcgc <teks>
+>╠➥ /setmenu <teks>
+>╠➥ /deletechat (chat grup)
+>╠➥ /deletechat group
+>╠➥ /mutechat (chat grup)
+>╠➥ /mutechat group
+>║
+>╚══════════〘 CRazyzBOT 〙
