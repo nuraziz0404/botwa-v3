@@ -1,23 +1,17 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-Tutorial Buat Bot WA:
+Tutorial memakai Bot WA:
 
 
-Ketik di *[TERMUX]*
-1) $pkg install git
-2) $pkg install ffmpeg
-3) $pkg install imagemagick
-4) $pkg install nodejs
-
-Untuk Githubnya..
-5) $git clone https://github.com/Akbarsans/Miray-chan
-6) $ls
-7) $cd Miray-chan
-
-yang *terakhirr* ..
-Penginstalannya cuy :)
-8) npm i
-9) node index.js
+Ketik di *[Terminal]*
+1) $apt install git
+2) $apt install ffmpeg
+3) $apt install imagemagick
+4) $apt install nodejs
+5) $git clone https://github.com/nuraziz0404/botwa-v3
+6) $cd botwa-v3
+7) npm i
+8) node index.js
 
 
 `.trim(), m)

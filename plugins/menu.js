@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   let preview = {}
   try {
-    if (!conn.menu) preview = await conn.generateLinkPreview('https://github.com/Akbarsans/Miray-chan')
+    if (!conn.menu) preview = await conn.generateLinkPreview('https://github.com/nuraziz0404/botwa-v3')
   } catch (e) {
     try {
       if (!conn.menu) preview = await global.conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
@@ -32,7 +32,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
- [Miray-chan] 
+ [CRazyzBOT] 
 
 
 Hi, ${name} 👋
@@ -42,75 +42,63 @@ Exp: ${exp}
 📆 Tanggal: ${week}, ${date}
 
 ${more.repeat(1000)}
-
 Cara Tambah XP:
 +1 Exp/pesan biasa
 +10 Exp/command
 
-═════✪〘 Menu 〙✪═══
-
-═〘 Xp 〙 ═
-➥ ${_p}leaderboard [jumlah user]
-
-═〘 Command 〙 ═
-➥ ${_p}menu
-➥ ${_p}help
-➥ ${_p}?
-
-═〘 Tutor BoT 〙 ═
-➥ ${_p}tutorial
-
-═〘 Others 〙 ═
-➥ ${_p}qr <teks>
-➥ ${_p}stiker (caption)
-➥ ${_p}stiker <url>
-➥ ${_p}toimg (reply)
-➥ ${_p}bucin
-➥ ${_p}ssweb <url>
-➥ ${_p}sswebf <url>
-➥ ${_p}google <pencarian>
-➥ ${_p}googlef <pencarian>
-➥ ${_p}readmore <teks>|<sembunyi>
-➥ ${_p}quran
-➥ ${_p}modApk
-
-═〘 Group 〙 ═
-➥ ${_p} add [62xxxxxxxxx]
-➥ ${_p} promote [@tagmember]
-➥ ${_p} demote [@tagadmin]
-➥ ${_p} linkgrup
-➥ ${_p} pengumuman [text]
-➥ ${_p} hidetag [text]
-➥ ${_p} listonline
-➥ ${_p} kick @Member
-➥ ${_p} grouplist
-
-═〘 EXPERIMENTAL 〙 ═
-➥ ${_p}jadibot [kode login jika ada / kosongin]
-➥ ${_p}berhenti
-➥ ${_p}getcode
-
-═〘 OWNER 〙 ═
-➥ ${_p}bcgc <teks>
-➥ ${_p}setmenu <teks>
-➥ ${_p}deletechat (chat grup)
-➥ ${_p}deletechat group
-➥ ${_p}mutechat (chat grup)
-➥ ${_p}mutechat group
-
-═〘 IKLAN 〙 ═
-➥ Instagram: intagram.com/akbarsan3
-➥ Github: https://github.com/Akbarsans/miray-chan
-
-═〘 Info Bot 〙 ═
-➥ Name : Miray-chan
-➥ Coded using *Nano* on Android \\w Termux
-➥ 
-
-Advanced:
-  > return m
-
-═〘 Miray-chan 〙═
+╔══════════✪〘 Menu 〙✪
+║
+╠═════〘 Xp 〙
+╠➥ ${_p}leaderboard [jumlah user]
+║
+╠═〘 Command 〙 
+╠➥ ${_p}status
+╠➥ ${_p}menu
+╠➥ ${_p}help
+╠➥ ${_p}?
+║
+╠═════〘 Tutor BoT 〙
+╠➥ ${_p}tutorial
+║
+╠═════〘 Others 〙
+╠➥ ${_p}qr <teks>
+╠➥ ${_p}stiker (caption)
+╠➥ ${_p}stiker <url>
+╠➥ ${_p}toimg (reply) *{SEDANG ERROR}*
+╠➥ ${_p}bucin
+╠➥ ${_p}ssweb <url>
+╠➥ ${_p}sswebf <url>
+╠➥ ${_p}google <pencarian>
+╠➥ ${_p}googlef <pencarian>
+╠➥ ${_p}readmore <teks>|<sembunyi>
+╠➥ ${_p}quran
+╠➥ ${_p}modApk
+║
+╠═════〘 Group 〙
+╠➥ ${_p}add [62xxxxxxxxx]
+╠➥ ${_p}promote [@tagmember]
+╠➥ ${_p}demote [@tagadmin]
+╠➥ ${_p}linkgrup
+╠➥ ${_p}pengumuman [text]
+╠➥ ${_p}hidetag [text]
+╠➥ ${_p}listonline
+╠➥ ${_p}kick @Member
+╠➥ ${_p}grouplist
+║
+╠═════〘 EXPERIMENTAL 〙
+╠➥ ${_p}jadibot
+╠➥ ${_p}berhenti
+╠➥ ${_p}getcode
+║
+╠═════〘 OWNER 〙
+╠➥ ${_p}bcgc <teks>
+╠➥ ${_p}setmenu <teks>
+╠➥ ${_p}deletechat (chat grup)
+╠➥ ${_p}deletechat group
+╠➥ ${_p}mutechat (chat grup)
+╠➥ ${_p}mutechat group
+║
+╚══════════〘 CRazyzBOT 〙
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
