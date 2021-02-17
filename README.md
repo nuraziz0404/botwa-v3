@@ -1,4 +1,4 @@
-# NfQ-BoT
+# CRazyzBOT
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
@@ -19,7 +19,7 @@ Simple WhatsApp Bot
 > cd botwa-v3
 > npm install
 ```
-###### Run
+### Run
 ```bash
 > node index.js
 ```
