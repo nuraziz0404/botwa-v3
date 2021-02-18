@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "debug": "node --inspect index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,12 +16,15 @@
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
     "chalk": "^4.1.0",
+    "dwebp-bin": "^1.0.0",
     "file-type": "^16.1.0",
+    "file-url": "^3.0.0",
     "form-data": "^3.0.0",
     "google-it": "^1.6.0",
     "jsdom": "^16.4.0",
     "node-fetch": "^2.6.1",
     "qrcode": "^1.4.4",
+    "sharp": "^0.27.1",
     "syntax-error": "^1.4.0",
     "yargs": "^16.2.0"
   }

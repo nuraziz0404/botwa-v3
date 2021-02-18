@@ -1,23 +1,25 @@
-const { spawn } = require('child_process')
-const util = require('util')
-const { MessageType } = require('@adiwajshing/baileys')
+const { MessageType } = require("@adiwajshing/baileys");
+const {execFile} = require('child_process');
+const dwebp = require('dwebp-bin');
 
-let handler  = async (m, { conn }) => {
+
+const handler  = async (m, { conn }) => {
+  let d = new Date
+  let locale = 'id'
+  let time = d.toLocaleTimeString(locale, {
+    second: 'numeric'
+  })
+  var out = `tmp/${time}.png`
   if (!m.quoted) return conn.reply(m.chat, 'Tag stikernya dengan Benarr!', m)
-  let q = { message: { [m.quoted.mtype]: m.quoted }}
+  var q = { message: { [m.quoted.mtype]: m.quoted }}
   if (/sticker/.test(m.quoted.mtype)) {
-    let sticker = await conn.downloadM(q)
-    if (!sticker) throw sticker
-    let bufs = []
-    let im = spawn('convert', ['webp:-', 'jpeg:-'])
-    im.on('error',e =>  conn.reply(m.chat, util.format(e), m))
-    im.stdout.on('data', chunk => bufs.push(chunk))
-    im.stdin.write(sticker)
-    im.stdin.end()
-    im.on('exit', () => {
-      conn.sendMessage(m.chat, Buffer.concat(bufs), MessageType.image, {
-        quoted: m
-      })
+    const savedFilename = await conn.downloadAndSaveMediaMessage (q, 'tmp/toimg')
+    await execFile(dwebp, [savedFilename, '-o', out], error => {
+      if (error) {
+        throw error;
+      }
+      console.log('Image is converted!');
+      conn.sendFile(m.chat, out, 'sticker.png', 'Berhasil')
     })
   }
 }

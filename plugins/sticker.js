@@ -3,6 +3,8 @@ const FormData = require('form-data')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler  = async (m, { conn, args }) => {
+let pushname = conn.getName(m.sender)
+const stickerMetadata = { pack: "CRazyzBOT", author: pushname };
   let q = m.quoted ? { message: { [m.quoted.mtype]: m.quoted }} : m
   if (/image/.test((m.quoted ? m.quoted : m).mtype)) {
     let img = await conn.downloadM(q)
@@ -13,7 +15,7 @@ let handler  = async (m, { conn, args }) => {
     })
   } else if (args[0]) {
     let stiker = await sticker(false, args[0])
-    conn.sendMessage(m.chat, stiker, MessageType.sticker, {
+    conn.sendMessage(m.chat, "CRazyzBOT", stiker, MessageType.sticker,  {
       quoted: m
     })
   }
