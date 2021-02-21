@@ -30,13 +30,9 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
  [CRazyzBOT] 
-
-Hi, ${name} 👋
-
-📟 Waktu: ${time}
+📟 Waktu  : ${time}
 📆 Tanggal: ${week}, ${date}
-
-*Status: Bot sedang Aktif*
+🔧 Status   : *Bot sedang Aktif*
 
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)

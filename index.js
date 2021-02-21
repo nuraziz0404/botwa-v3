@@ -29,6 +29,8 @@ conn.on('credentials-updated', () => fs.writeFileSync(authFile, JSON.stringify(c
 
 conn.handler = async function (m) {
   try {
+    conn.chatRead (m.key.remoteJid)
+    //console.log('id handler: ', m.key.remoteJid)
   	simple.smsg(this, m)
     m.exp = 1
     if (!m.fromMe && opts['self']) return
@@ -156,7 +158,7 @@ for (let filename in global.plugins) {
     delete global.plugins[filename]
   }
 }
-console.log(global.plugins)
+//console.log(global.plugins)
 fs.watch(path.join(__dirname, 'plugins'), (event, filename) => {
   if (pluginFilter(filename)) {
     let dir = './plugins/' + filename
